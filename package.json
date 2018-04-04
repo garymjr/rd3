@@ -69,6 +69,7 @@
   },
   "scripts": {
     "pretest": "npm run lint",
+    "postinstall": "npm install && npm run release",
     "test": "gulp test",
     "watch": "gulp watch",
     "tdd": "gulp tdd",
