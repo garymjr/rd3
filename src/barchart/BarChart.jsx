@@ -132,6 +132,7 @@ module.exports = createReactClass({
           height={props.height}
           title={props.title}
           shouldUpdate={!this.state.changeState}
+          sideOffset={props.sideOffset}
         >
           <g transform={trans} className={props.chartClassName}>
             <YAxis

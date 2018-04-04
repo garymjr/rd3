@@ -18,6 +18,7 @@ module.exports = {
     horizontal: PropTypes.bool,
     legend: PropTypes.bool,
     legendOffset: PropTypes.number,
+    sideOffset: PropTypes.number,
     title: PropTypes.string,
     width: PropTypes.oneOfType([
       PropTypes.string,
@@ -58,6 +59,7 @@ module.exports = {
       horizontal: false,
       legend: false,
       legendOffset: 120,
+      sideOffset: 90,
       title: '',
       width: 400,
       // xAxisFormatter: no predefined value right now
